@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Users(
+    id VARCHAR(36) PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255) UNIQUE,
+    password VARCHAR(255)
+);
+SELECT * FROM Users;
